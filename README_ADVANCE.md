@@ -194,9 +194,6 @@ export default UseStateObject;
 
 #### Set Function "Gotcha"
 
-```js
-import Starter from "./tutorial/01-useState/starter/05-useState-gotcha.jsx";
-```
 
 Setup Challenge :
 
@@ -325,19 +322,6 @@ export default MultipleEffects;
 
 - we will use axios
 
-Setup Challenge :
-
-- import useState and useEffect
-- setup state value
-  - users - default value []
-- setup useEffect
-
-- MAKE SURE IT RUNS ONLY ON INITIAL RENDER
-- in the cb, create a function which performs fetch functionality
-  - use url I provided in the starter file
-  - you can use .then or async
-  - set users equal to result
-  - iterate over the list and display image, user name and link
 
 ```js
 import { useState, useEffect } from "react";
@@ -761,10 +745,6 @@ export default ControlledInputs;
 ```
 
 #### User Challenge
-
-```js
-import Starter from "./tutorial/06-forms/starter/02-user-challenge.jsx";
-```
 
 - setup controlled input (name input)
 - setup onSubmit (for now just placeholder)
