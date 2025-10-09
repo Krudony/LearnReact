@@ -1,3 +1,5 @@
+import BasicUseReducer from "./components/BasicUseReducer";
+import BasicUseReducer2 from "./components/BasicUseReducer2";
 import ConditionBasic from "./components/ConditionBasic";
 import FetchBasic from "./components/FetchBasic";
 import FormInput from "./components/FormInput";
@@ -16,8 +18,10 @@ const App = () => {
       {/* <FormInput />
       <ListBasic kaika={users} />
       <UseEffectBasic />
-      <FetchBasic /> */}
+      <FetchBasic />
       <ConditionBasic />
+      <BasicUseReducer /> */}
+      <BasicUseReducer2 />
     </>
   );
 };
