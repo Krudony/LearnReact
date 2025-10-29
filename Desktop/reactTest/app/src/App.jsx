@@ -1,49 +1,21 @@
-import React from "react";
-import Title from "./components/Title";
-import Book from "./components/Book";
-import Sellbook from "./Sellbook";
-
+import React, { useState } from "react";
 
 const App = () => {
-const user = [
+  //Js
 
-  {id:1, name:"Don"},
-  {id:2, name:"Roy"}
+  const [msg, setMsg] = useState("Hello");
 
-]
-
-const suname =[
-
-  {id:1, name:"Tk",suname:"Gtd"},
-  {id:2, name:"sd",suname:"Gto"}
-]
+  const hdlshow = () => {
+    setMsg("Test");
+  };
 
   return (
+    //Html Event ปุ่มเรียกฟังชั่น
     <div>
-      <Title txt="Easy React " price={500} />
-
-      <Book data1={user}>
-        <p>
-          <span> Price........ </span>
-        </p>
-        <button>Submit</button>
-      </Book>
-
-      <Sellbook data={suname}>
-
-
-      <p>
-          <span> Price........ </span>
-      </p>
-        <button>Submit</button>
-
-      </Sellbook>
-
-
+      {msg}
+      <button onClick={hdlshow}> OK...Sucess</button>
     </div>
   );
 };
-
-
 
 export default App;
