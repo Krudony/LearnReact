@@ -4,6 +4,7 @@ import ConditionBasic from "./components/ConditionBasic";
 import FetchBasic from "./components/FetchBasic";
 import FormInput from "./components/FormInput";
 import ListBasic from "./components/ListBasic";
+import Test from "./components/Test";
 import UseEffectBasic from "./components/UseEffectBasic";
 
 // rafce
@@ -22,6 +23,7 @@ const App = () => {
       <ConditionBasic />
       <BasicUseReducer /> */}
       <BasicUseReducer2 />
+      <Test/>
     </>
   );
 };
